@@ -1,13 +1,6 @@
-<?php get_header(); ?>
- <!-- Aqui va el content  -->
+<?php get_header(); 
 
- <!-- loop -->
- <?php
- foreach ($empresarias as $item) {
-    var_dump($item);
- }
- ?>
-  <!-- end loop -->
+require get_template_directory() . '/modules/empresarias-posts.php';
+require get_template_directory() . '/modules/feature-posts.php';
 
- <!-- termina content -->
-<?php get_footer(); ?>
+get_footer(); ?>
