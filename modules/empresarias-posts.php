@@ -1,6 +1,6 @@
 <?php
 $arr = [
-    'post_type' => 'empresariass',
+    'post_type' => 'empresarias',
     'posts_per_page' => 6,
     'status' => 'publish'
 ];
@@ -27,9 +27,9 @@ $customPosts = new WP_Query($arr);
                 else:
                 foreach($empresarias as $fake) { ?>
                     <div class="col-lg-4 box-home-empr">
-                        <img src="<?php echo $fake->img; ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/fake-empresarias/'.rand(1,2).'.jpg' ?>" class="card-img-top" alt="...">
                         <h1><?php echo $fake->titulo; ?></h1>
-                        <h2>dadadad</h2>
+                        <h2><?php echo $fake->empresa; ?></h2>
                         <p>
                             <?php echo $fake->bajada ?>
                             <a href="#"> Ver más</a>
@@ -39,7 +39,7 @@ $customPosts = new WP_Query($arr);
             <?php endif; ?>
         </div>
         <div class="row justify-content-center">
-            <a href="#" class="btn-main w-25 text-center mt-4 mb-4"> Ver todas</a>
+            <a href="#" class="btn-main w-25 text-center mt-4 mb-4">Ver todas</a>
         </div>
     </div>
 </section>
