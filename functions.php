@@ -178,6 +178,7 @@ require get_template_directory() . '/inc/custom-css.php';
 require get_template_directory() . '/faker/faker/src/autoload.php';
 require get_template_directory() . '/faker/empresarias.php';
 require get_template_directory() . '/faker/noticias.php';
+require get_template_directory() . '/faker/posts-destacados.php';
 
 /**
  * Register and Enqueue Styles.

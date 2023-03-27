@@ -2,7 +2,7 @@
 $faker = Faker\Factory::create();
 
 $empresarias = [];
-for ($i = 0; $i < 35; $i++) {
+for ($i = 0; $i < 6; $i++) {
     $name = $faker->name;
     $item = (object)[
         'titulo' => $name,

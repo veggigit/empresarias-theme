@@ -1,10 +1,11 @@
 <?php
 $args = [
-    'posts_per_page' => 25,
-    'category_name' => 'destacados'
+    'posts_per_page' => 6,
+    'category_name' => 'destacados',
+    'post_status' => 'publish'
 ];
 
-$features = new WP_Query($args);
+$feturePosts = new WP_Query($args);
 ?>
 <section class="destacados-loop">
     <h1> Destacados</h1>
@@ -12,9 +13,8 @@ $features = new WP_Query($args);
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
                 <?php
-                if (have_posts()):
-                    while (have_posts()):
-                        the_post(); ?>
+                if ($feturePosts->have_posts()):
+                    while (have_posts()): the_post(); ?>
                         <li class="glide__slide">
                             <div class="row">
                                 <div class="col-lg-8 mt-6 vertical-align">
@@ -29,7 +29,22 @@ $features = new WP_Query($args);
                         </li>
                         <?php
                     endwhile;
-                endif; ?>
+                else:
+                    foreach($postsDestacados as $pd)
+                        {?>
+                        <li class="glide__slide">
+                            <div class="row">
+                                <div class="col-lg-8 mt-6 vertical-align">
+                                    <h2><?php echo $pd->titulo ; ?></h2>
+                                    <p><?php echo $pd->resumen ?></p>
+                                    <a class="leermas" href="#"> Leer más</a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="foto-descatada" src="<?php echo get_template_directory_uri() . '/assets/images/fake-post-destacados/'.rand(1,3).'.png' ?>">
+                                </div>
+                            </div>
+                        </li>
+                    <?php }endif; ?>
             </ul>
         </div>
         <div data-glide-el="controls" class="control-posicion">

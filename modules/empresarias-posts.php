@@ -7,7 +7,6 @@ $arr = [
 
 $customPosts = new WP_Query($arr);  
 ?>
-
 <section>
     <div class="container">
         <div class="row mx-4">

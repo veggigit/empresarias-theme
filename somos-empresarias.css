@@ -46,14 +46,14 @@ a:hover.btn-main { background-color: #f3d03e; opacity: 0.8; text-decoration: non
 /*SECCION INICIO*/
 
 /*SECCION DESTACADOS*/
-.destacados-loop {background-color: #f2edc3; padding: 30px 0px; }
+.destacados-loop {background-color: #f2edc3; padding: 30px 120px; }
 .destacados-loop h1 { color: #51293C; font-size: 2.5rem; font-family: roboto slab; font-weight: bold; padding: 20px 0; }
 .destacados-loop h2 { color: #0a272c; font-size: 2rem; font-family: roboto slab; font-weight: bold; padding: 30px 30px 10px 0; }
 .destacados-loop p { color: #0a272c; font-size: 1.3rem; font-family: roboto slab; font-weight: bold; padding: 0px 30px 20px 0;  }
 .destacados-loop a.leermas { color: #0a272c; font-size: 1.5rem; font-family: roboto slab; text-decoration: underline;  }
 .destacados-loop a:hover.leermas { text-decoration: underline; }
 button.arrow-link {   background: none; border: none;}
-section.destacados-loop img.foto-descatada {   width: 400px;  height: 400px; object-fit: cover; }
+section.destacados-loop img.foto-descatada {   width: 100%;  height: 100%; object-fit: cover; }
 .control-posicion {position: absolute; left: 426px; top: 340px;}
 @media only screen and (max-width: 1394px) {
 .control-posicion {position: absolute; left: 276px;} }
