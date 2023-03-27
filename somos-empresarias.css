@@ -1,0 +1,134 @@
+/*BAKERY*/
+.header-bottom {background-color: #51293C!important;}
+#heading {display: none!important;}
+.navigation-default .menu-primary > ul > li > a, .navigation-default .primary-menu > ul > li > a { color:#fff!important; text-transform: initial!important;font-size: 1rem; }
+.navigation-default .menu-primary > ul > li.current-menu-item > a, .navigation-default .menu-primary > ul > li.current_page_parent > a, .navigation-default .menu-primary > ul > li.current_page_item > a, .navigation-default .primary-menu > ul > li.current-menu-item > a, .navigation-default .primary-menu > ul > li.current_page_parent > a, .navigation-default .primary-menu > ul > li.current_page_item > a { color: #f3d03e!important;}
+.navigation-default .menu-primary > ul > li > a::before, .navigation-default .primary-menu > ul > li > a::before { background:none;}
+.site-footer {background-color: #51293c!important;}
+.footer-widgets { padding: 30px 0 15px!important;}
+.footer-widgets.footer-widgets-col--four .footer-widget-area { width: 50%!important;}
+.footer-bottom .footer-bottom-container { display: none!important;}
+.mobile-navigation .nav-header .nav-title {background-image: url(https://www.sercotec.cl/somosempresarias/wp-content/uploads/sites/7/2023/03/logoblanco5.png);}
+.mobile-navigation .nav-header { background-color: #51293c!important;}
+.mobile-navigation .menu-primary, .mobile-navigation .primary-menu { background-color: #51293c!important; color: #f3d03e!important;}
+.mobile-navigation .menu-primary ul li a, .mobile-navigation .primary-menu ul li a { border: 1px solid #fff!important;}
+/*BAKERY*/
+
+/*TEMPLATE EMPRESARIAS*/
+.bajada-entrevista { font-family: roboto slab; font-size: 1.4rem; color: #51293c; vertical-align: middle;  font-weight: bold; letter-spacing:1px;}
+h1.nombre-empresaria { font-family: roboto slab; font-size: 3.4rem; color: #51293c; font-weight: bold; letter-spacing:2px; text-transform: uppercase; }
+h2.nombre-empresa { font-size: 1.6rem; color: #51293c; font-weight: bold; letter-spacing:2px; padding-bottom: 40px; font-family: roboto;}
+.seccion-rrss{ font-size: 1rem; color: #51293c; padding: 20px 0; display:flex!important; }
+.seccion-rrss a{ text-decoration: none; margin: 0 5px;}
+a.btn-cat-empresarias { font-family: roboto; background-color: #e4db89; color: #51293c; font-size: 1rem; font-weight: bold; text-decoration: none; padding: 10px;}
+.columnas-entrevistas { word-wrap:break-word; white-space: pre-wrap; font-size: 1.1rem; color: #07272d;}
+a:hover.btn-cat-empresarias { background-color: #fbf197; color: #51293c; font-size: 1rem; font-weight: 400; text-decoration: none; font-weight: bold;}
+.fecha-entrevista { font-size: 0.9rem; color:#07272d; text-align: right; font-weight: lighter!important;}
+.pt-bajada { padding-top: 11%;}
+a.breadmigas  { font-size: 1rem; color: #07272d; text-decoration: none;}
+a:hover.breadmigas  {text-decoration: underline;color: #07272d;}
+.new-cat-empresarias {background-color: #f2edc3; font-size: 1rem; color: #07272d; font-family: roboto; padding: 8px;}
+.breadcrumb {     font-size: 0.9rem!important; color: #07272d!important;}
+.breadcrumb a {color: #07272d!important; text-decoration: none;}
+
+/*TEMPLATE EMPRESARIAS*/
+
+/*SECCION INICIO*/
+.box-home-empr {}
+.box-home-empr h1 { font-family: roboto slab; font-size: 1.7rem; color: #51293c; font-weight: bold; letter-spacing:2px; text-transform: uppercase; padding: 10px 0 0 0;}
+.box-home-empr h2 { font-family: roboto; font-size: 1.2rem; color: #51293c; font-weight: bold; letter-spacing:2px; }
+.box-home-empr p { font-size: 1rem; color: #0a272c; line-height: 1.6; font-family: roboto;  }
+.box-home-empr a {font-weight: bolder; color: #0a272c; text-decoration: none; }
+.box-home-empr a:hover { text-decoration: underline; color: #0a272c; }
+a.btn-main { background-color: #f3d03e!important; color: #0a272c!important; font-family: roboto!important; font-size: 1.4rem; border-radius: 50px; padding: 15px 40px!important; font-weight: bolder; text-decoration: none;}
+a:hover.btn-main { background-color: #f3d03e; opacity: 0.8; text-decoration: none;color: #0a272c!important;}
+
+/*SECCION INICIO*/
+
+/*SECCION DESTACADOS*/
+.destacados-loop {background-color: #f2edc3; padding: 30px 0px; }
+.destacados-loop h1 { color: #51293C; font-size: 2.5rem; font-family: roboto slab; font-weight: bold; padding: 20px 0; }
+.destacados-loop h2 { color: #0a272c; font-size: 2rem; font-family: roboto slab; font-weight: bold; padding: 30px 30px 10px 0; }
+.destacados-loop p { color: #0a272c; font-size: 1.3rem; font-family: roboto slab; font-weight: bold; padding: 0px 30px 20px 0;  }
+.destacados-loop a.leermas { color: #0a272c; font-size: 1.5rem; font-family: roboto slab; text-decoration: underline;  }
+.destacados-loop a:hover.leermas { text-decoration: underline; }
+button.arrow-link {   background: none; border: none;}
+section.destacados-loop img.foto-descatada {   width: 400px;  height: 400px; object-fit: cover; }
+.control-posicion {position: absolute; left: 426px; top: 340px;}
+@media only screen and (max-width: 1394px) {
+.control-posicion {position: absolute; left: 276px;} }
+@media only screen and (max-width: 991px) {
+.control-posicion {position: absolute; left:0; top: 706px; } }
+@media only screen and (max-width: 755px) {
+.control-posicion {position: absolute; left:0; top: 805px; } } 
+@media only screen and (max-width: 466px) {
+.control-posicion {position: absolute; left:0; top: 828px; } }  
+@media only screen and (max-width: 449px) {
+.control-posicion {position: absolute; left:0; top: 850px; background-color: white; } }                
+/*SECCION DESTACADOS*/
+
+/*SECCION resultado de busqueda*/
+.resul-busqueda .item:last-child hr{ border: none; display: none;}
+.resul-busqueda .item.hr{ border-bottom: 1px solid black;}
+.resul-busqueda .col-left{ }
+.resul-busqueda .item img {width: 100%;  height: 100%; object-fit: cover; }
+.resul-busqueda h1 { color: #51293C; font-size: 2.5rem; font-family: roboto slab; font-weight:lighter; padding:20px 0;  }
+.resul-busqueda .item h2 a { color: #020304!important; font-size: 1.5rem; font-family: roboto slab; font-weight: bold; padding:20px 0 10px 0; font-weight: bold; }
+.resul-busqueda .item a{ color: #51293C; text-decoration:none; font-size: 1rem; display: block; width:auto; height: auto; }
+.resul-busqueda .item a:hover{ text-decoration: underline;  }
+.resul-busqueda .item a.migas {color: #07272d; text-decoration: none; font-size: 1rem;  }
+.resul-busqueda .item a:hover.migas {text-decoration: underline;}
+.paginacion-somos a  {color: #0a272c; margin: 0 20px; font-size: 1.4rem; font-family: roboto slab; font-weight: bold; text-align: center;padding: 2px; text-decoration: none; }
+.paginacion-somos a.active  { background-color: #f3d03e; border-radius:50%;  width: 40px; height: 40px;}
+.form-control-somos {background-color: #f2f0f1; height: 40px; border: none;}
+.w-75percent {width: 75%;}
+.w-25percent {width: 25%;}
+.sidebar-somos { background-color: #f2f0f1;}    
+@media only screen and (max-width: 992px) {
+.sidebar-somos {display: none;} }  
+/*SECCION resultado de busqueda*/
+
+
+/* CLASES DEL TEMPLATE NATIVAS*/
+.header-action-search-form.header-action-search-form--show {border-top: none!important;}
+.search-form .search-submit { background-color: #f3d03e!important; color: #0a272c!important; font-family: roboto; font-size: 1rem; border-radius: 50px; padding: 5px 30px; font-weight: bolder; text-transform: capitalize!important;}
+.search-form .search-submit:hover {background-color: #f3d03e!important; opacity: 0.8!important; }
+.search-form .search-field  {background-color: #f2f0f1!important; height: 40px!important; border: none!important;  margin: 14px 0px; padding: 36px; color: #0a272c!important; font-size: 2rem; }
+.widget .widget-title {color: #0a272c!important; font-family: roboto!important; font-size: 1.2rem; padding: 0!important; font-weight: bolder!important; }
+.widget.widget--ribbon .widget-title {}
+.widget.widget--ribbon .widget-title::before {display: none!important;}
+
+.widget.widget_tag_cloud .tagcloud a { background-color: #e7e1e4!important; font-size: 1rem!important; color: #51293C!important;border: none!important; padding: 8px!important; margin: 5px!important;}
+.widget.widget_tag_cloud .tagcloud a:hover { background-color: #e7e1e4!important;opacity: 0.8!important;}
+/* CLASES DEL TEMPLATE NATIVAS*/
+
+
+
+/* CLASES DEL TEMPLATE NATIVAS TWEENTY*/
+.primary-menu li.current-menu-item > a, .primary-menu li.current-menu-item > .link-icon-wrapper > a {color: #f3d03e!important ; text-decoration: none;}
+.primary-menu  a {color: #fff!important ; text-decoration: none; font-size: 1.2rem!important;}
+#site-header {background-color: #51293C!important;}
+.header-inner { padding:0.8rem 0!important;}
+.header-inner .toggle svg {color:  #fff!important ; width: 27px!important;}
+.toggle-text {color:  #fff!important ; display: none!important;}
+.footer-style { background-color: #51293C!important;}
+.footer-style a {text-decoration: none;}
+.site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {color:  #fff!important ;}
+.entry-content h1, .entry-content h2, .entry-content h3 {margin: 0!important;}
+.entry-content {font-family: roboto!important;}
+html {font-size: 100%!important; /* 1rem = 10px */ font-family: roboto;}
+.post-inner { padding-top: 20px!important;}
+.menu-modal-inner {  background-color: #51293c!important;}
+.modal-menu > li > a, .modal-menu > li > .ancestor-wrapper > a { color: #fff!important; font-size: 1.2rem!important; text-decoration: none!important; font-weight: normal!important; padding:24px 0px!important;}
+.header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle { color: #fff!important; font-size: 1 5rem!important; text-decoration: none;}
+
+.entry-content p { font-size: 1.2rem!important;}
+/* CLASES DEL TEMPLATE NATIVAS TWEENTY*/
+
+
+/* DESTACADOS - INTERIOR */
+
+.entry-destacados h1 { font-family: Roboto slab; font-size: 2.4rem; color: #020304; margin: 20px 0; font-weight: bold;}
+.entry-destacados h2 { font-family: Roboto; font-size: 1.4rem; color: #020304; margin: 20px 0; font-weight: bold;}
+.entry-destacados p{ font-family: Roboto; font-size: 1.2rem; color: #020304; margin: 50px 0; font-weight: bold;}
+/* DESTACADOS - INTERIOR */
